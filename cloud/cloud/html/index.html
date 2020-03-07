@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>云际实验室</title>
+  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../layui-v2.5.5/layui/css/layui.css">
+   <link rel="stylesheet" href="../swiper-5.2.1/package/css/swiper.css">
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div>
+  <div class="banner">
+       <img src="../image/logo.png" class="logoImg">
+       <span class="banner-title">国家重点研发计划</span>
+       <a href="javascript:">首页</a>
+       <a href="javascript:">厂商信息</a>
+       <a href="javascript:">云际计算服务</a>
+       <a href="javascript:" style="float: right;">登录</a>
+       <a href="javascript:" style="float: right;">注册</a>
+  </div>
+ <div class="swiper-container"  style="background: url(../image/dec.png) no-repeat center center;background-size: 90%;">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="text-align: center;">
+       <img src="../image/carousel1.png" style="width: 70%;">
+      </div>
+      <div class="swiper-slide" style="text-align: center;">
+       <img src="../image/carousel2.png" style="width: 70%;">
+      </div>
+      <div class="swiper-slide" style="text-align: center;">
+       <img src="../image/carousel3.png" style="width: 70%;">
+      </div>
+      <div class="swiper-slide" style="text-align: center;">
+       <img src="../image/carousel4.png" style="width: 70%;">
+      </div>
+    </div>
+     <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+   <!--  <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+  </div>
+  <div class="content">
+    <div style="width: 70%;margin: 0 auto">
+       <div style="display: inline-block;">
+      <ul class="change-ul">
+        <li class="change-active" value="0">全球</li>
+        <li value="1">国内3个</li>
+        <li value="2">亚太6个</li>
+        <li value="3">北美5个</li>
+        <li value="4">欧洲2个</li>
+      </ul>
+    </div>
+    </div>
+   
+    
+    <div style="margin-bottom: 50px;">
+      <div id="main" style="width: 1080px;height:450px;margin: 10px auto;"></div>
+     <div id="main1" style="width: 1080px;height:450px;margin: 10px auto;display: none"></div>
+     <div id="main2" style="width: 1080px;height:450px;margin: 10px auto;display: none"></div>
+     <div id="main3" style="width: 1080px;height:450px;margin: 10px auto;display: none"></div>
+     <div id="main4" style="width: 1080px;height:450px;margin: 10px auto;display: none"></div>
+    </div>
+     
+
+     
+  </div>
+  <div class="manufacturer">
+    <p style="text-align: center;line-height: 32px;font-size: 32px">厂商信息</p>
+    <p style="text-align: center;line-height: 40px;font-size: 18px">Cloud computing services</p>
+    <div class="layui-row cloud-wrapper">
+      <div class="layui-col-md4" >
+        <div class="cloud-card">
+          <div class="cloud-card-header">
+            <img src="../image/ali.png">
+            <p style="margin-top: 15px">
+              阿里云（www.aliyun.com）创立于2009年，是全球领先的云计算及人工智能科技公司，为200多个国家和地区的企业、开发者和政府机构提供服务。2017年1月阿里云成为奥运会全球指定云服务商。2017年8月阿里巴巴财报数据显示，阿里云付费云计算用户超过100万。阿里云致力于以在线公共服务的方式，提供安全、可靠的...
+            </p>
+          </div>
+          <div class="cloud-card-footer">
+            <a href="javascript:">立即选配</a>
+          </div>
+        </div>
+      </div>
+      <div class="layui-col-md4" >
+        <div class="cloud-card" style="margin: 0 auto">
+          <div class="cloud-card-header">
+            <img src="../image/huaweilogo.png">
+            <p style="margin-top: 15px">
+             华为云是华为的云服务品牌，用在线的方式将华为30多年在ICT基础设施领域的技术积累和产品解决方案开放给客户，致力于提供稳定可靠、安全可信、可持续创新的云服务，做智能世界的“黑土地”，推进实现“用得起、用得好、用得放心”的普惠AI。华为云作为底座，为华为全栈全场景AI战略提供强大的算力平台和更易用的开发平台。
+            </p>
+          </div>
+          <div class="cloud-card-footer">
+            <a href="javascript:">立即选配</a>
+          </div>
+        </div>
+      </div>
+      <div class="layui-col-md4" >
+        <div class="cloud-card" style="float: right;">
+          <div class="cloud-card-header">
+            <img src="../image/tecent.png">
+            <p style="margin-top: 15px">
+              腾讯云基于QQ、微信、腾讯游戏等海量业务的技术锤炼，
+              从基础架构到精细化运营，从平台实力到生态能力建设，腾讯云将之整合并面向市场，
+              使之能够为企业和创业者提供集云计算、云数据、云运营于一体的云端服务体验。
+            </p>
+          </div>
+          <div class="cloud-card-footer">
+            <a href="javascript:">立即选配</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="manufacturer" style="margin-top: 50px">
+     <p style="text-align: center;line-height: 32px;font-size: 32px">云际计算服务</p>
+    <p style="text-align: center;line-height: 40px;font-size: 18px">JointCloud Computing Services</p>
+    <div class="layui-row cloud-wrapper">
+      <div class="layui-col-md6" >
+        <div class="cloud-card-2">
+          <div class="layui-row" style="background: url(../image/icon背景.png)left center no-repeat;height: 100%;">
+             <div class="layui-col-md4" >
+               <div >
+                 <img src="../image/云际互联.png" style="width: 100px;margin-top: 30px">
+               </div>
+             </div>
+              <div class="layui-col-md8" >
+               <p class="cloud-card-2-title" >云际互联</p>
+               <p class="cloud-card-2-content" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+               </p>
+               <div class="layui-row cloud-card-2-footer">
+                   <div class="layui-col-md4" >
+                     <img src="../image/解决方案.png">
+                      &nbsp;<a href="javascript:">解决方案</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/工具套餐.png">
+                      &nbsp;<a href="javascript:">工具套件</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/在线服务.png">
+                      &nbsp;<a href="javascript:">在线服务</a>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+       <div class="layui-col-md6" >
+        <div class="cloud-card-2" style="float: right;">
+          <div class="layui-row" style="background: url(../image/icon背景.png)left center no-repeat;height: 100%;">
+             <div class="layui-col-md4" >
+               <div >
+                 <img src="../image/云际存储.png" style="width: 100px;margin-top: 30px">
+               </div>
+             </div>
+              <div class="layui-col-md8" >
+               <p class="cloud-card-2-title" >云际存储</p>
+               <p class="cloud-card-2-content" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+               </p>
+               <div class="layui-row cloud-card-2-footer">
+                   <div class="layui-col-md4" >
+                     <img src="../image/解决方案.png">
+                      &nbsp;<a href="javascript:">解决方案</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/工具套餐.png">
+                      &nbsp;<a href="javascript:">工具套件</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/在线服务.png">
+                      &nbsp;<a href="javascript:">在线服务</a>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="layui-row cloud-wrapper">
+      <div class="layui-col-md6" >
+        <div class="cloud-card-2">
+          <div class="layui-row" style="background: url(../image/icon背景.png)left center no-repeat;height: 100%;">
+             <div class="layui-col-md4" >
+               <div >
+                 <img src="../image/跨云计算.png" style="width: 100px;margin-top: 30px">
+               </div>
+             </div>
+              <div class="layui-col-md8" >
+               <p class="cloud-card-2-title" >跨云计算</p>
+               <p class="cloud-card-2-content" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+               </p>
+               <div class="layui-row cloud-card-2-footer">
+                   <div class="layui-col-md4" >
+                     <img src="../image/解决方案.png">
+                      &nbsp;<a href="javascript:">解决方案</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/工具套餐.png">
+                      &nbsp;<a href="javascript:">工具套件</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/在线服务.png">
+                      &nbsp;<a href="javascript:">在线服务</a>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+       <div class="layui-col-md6" >
+        <div class="cloud-card-2" style="float: right;">
+          <div class="layui-row" style="background: url(../image/icon背景.png)left center no-repeat;height: 100%;">
+             <div class="layui-col-md4" >
+               <div >
+                 <img src="../image/虚拟专云.png" style="width: 100px;margin-top: 30px">
+               </div>
+             </div>
+              <div class="layui-col-md8" >
+               <p class="cloud-card-2-title" >虚拟专云</p>
+               <p class="cloud-card-2-content" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+               </p>
+               <div class="layui-row cloud-card-2-footer">
+                   <div class="layui-col-md4" >
+                     <img src="../image/解决方案.png">
+                      &nbsp;<a href="javascript:">解决方案</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/工具套餐.png">
+                      &nbsp;<a href="javascript:">工具套件</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/在线服务.png">
+                      &nbsp;<a href="javascript:">在线服务</a>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+         <div class="layui-row cloud-wrapper">
+      <div class="layui-col-md6" >
+        <div class="cloud-card-2">
+          <div class="layui-row" style="background: url(../image/icon背景.png)left center no-repeat;height: 100%;">
+             <div class="layui-col-md4" >
+               <div >
+                 <img src="../image/纠删码.png" style="width: 100px;margin-top: 30px">
+               </div>
+             </div>
+              <div class="layui-col-md8" >
+               <p class="cloud-card-2-title" >纠删码</p>
+               <p class="cloud-card-2-content" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+               </p>
+               <div class="layui-row cloud-card-2-footer">
+                   <div class="layui-col-md4" >
+                     <img src="../image/解决方案.png">
+                      &nbsp;<a href="javascript:">解决方案</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/工具套餐.png">
+                      &nbsp;<a href="javascript:">工具套件</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/在线服务.png">
+                      &nbsp;<a href="javascript:">在线服务</a>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+       <div class="layui-col-md6" >
+        <div class="cloud-card-2" style="float: right;">
+          <div class="layui-row" style="background: url(../image/icon背景.png)left center no-repeat;height: 100%;">
+             <div class="layui-col-md4" >
+               <div >
+                 <img src="../image/云际记账.png" style="width: 100px;margin-top: 30px">
+               </div>
+             </div>
+              <div class="layui-col-md8" >
+               <p class="cloud-card-2-title" >云际记账</p>
+               <p class="cloud-card-2-content" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+               </p>
+               <div class="layui-row cloud-card-2-footer">
+                   <div class="layui-col-md4" >
+                     <img src="../image/解决方案.png">
+                      &nbsp;<a href="javascript:">解决方案</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/工具套餐.png">
+                      &nbsp;<a href="javascript:">工具套件</a>
+                   </div>
+                    <div class="layui-col-md4" >
+                     <img src="../image/在线服务.png">
+                      &nbsp;<a href="javascript:">在线服务</a>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+
+    <div style="width: 70%;padding-top: 30px;margin: 0 auto">
+      <div class="layui-row">
+        <div class="layui-col-md9">
+          <a href="javascript:">关于我们</a>
+          <a href="javascript:">联系我们</a>
+          <a href="javascript:">加入我们</a>
+          <a href="javascript:">服务体系</a>
+          <a href="javascript:">交易保障</a>
+          <a href="javascript:">网站协议</a>
+          <a href="javascript:">支付方式</a>
+          <a href="javascript:">平台广告</a>
+          <p style="font-size: 12px;margin-top: 10px">@2019 www.xxxxxxx.com 沪ICP备12345678号-5 上海xxxxxxxxxx有限公司</p>
+        </div>
+        <div class="layui-col-md3">
+           <div class="text-center" style="display: inline-block;float: right;text-align: center;">
+                <a href="javascript:"><i style="font-size: 26px" class="layui-icon layui-icon-login-weibo"></i></a> 
+                <p style="font-size: 12px;margin-top: 8px">官方微博</p>
+            </div>
+             <div class="text-center" style="display: inline-block;float: right;margin-right: 10px;text-align: center;">
+                <a href="javascript:"><i style="font-size: 26px" class="layui-icon layui-icon-login-wechat"></i></a> 
+                <p style="font-size: 12px;margin-top: 8px">官方公众号</p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../layui-v2.5.5/layui/layui.js"></script>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/echarts.min.js"></script>
+ <script type="text/javascript" src="../js/world.js"></script>
+ <script type="text/javascript" src="../js/china.js"></script>
+ <script src="../swiper-5.2.1/package/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+       loop: true,
+        autoplay: {
+           delay: 5000,//1秒切换一次
+         },
+       pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script> 
+
+<script type="text/javascript">
+
+var myChart = echarts.init(document.getElementById('main'));
+var myChart1 = echarts.init(document.getElementById('main1'));
+var myChart2 = echarts.init(document.getElementById('main2'));
+var myChart3 = echarts.init(document.getElementById('main3'));
+var myChart4= echarts.init(document.getElementById('main4'));
+var geoCoordMap = {
+    "上海": [121.473701,31.230416],
+    "多伦多": [-79.383184,43.653226],
+    "重庆": [106.550730,29.564710],
+    "深圳": [114.059560,22.542860],
+    "成都": [104.064760,30.570200],
+    "广州": [113.264360,23.129080],
+    "香港": [114.109497,22.396428],
+    "东京": [139.691706,35.689487],
+    "首尔": [126.977969,37.566535],
+     "新加坡": [103.819836,1.352083],
+     "曼谷": [100.501765,13.756331],
+     "孟买": [72.877656,19.075984],
+     "金奈": [80.27,13.09],
+     "悉尼": [151.209296,-33.86882],
+     "莫斯科": [37.6173,55.755826],
+     "法兰克福": [8.682127,50.110922],
+     "阿姆斯特丹": [4.895168,52.370216],
+     "伦敦": [-0.127758,51.507351],
+      "华盛顿": [-77.036871,38.907192],
+      "弗吉尼亚": [-78.656894,37.451573],
+      "达拉斯": [-96.796988,32.776664],
+      "硅谷": [-124.699159,38.974621],
+      "圣何塞": [-121.53,37.2],
+      "圣保罗": [-46.633309,-23.55052],
+};
+
+
+
+var rawData = [
+{name: "上海", value: 150},
+{name: "重庆", value: 150},
+{name: "深圳", value: 150},
+{name: "成都", value: 150},
+{name: "广州", value: 150},
+{name: "香港", value: 150},
+{name: "东京", value: 150},
+{name: "首尔", value: 150},
+{name: "新加坡", value: 150},
+{name: "曼谷", value: 150},
+{name: "孟买", value: 150},
+{name: "多伦多", value: 150},
+{name: "莫斯科", value: 150},
+{name: "法兰克福", value: 150},
+{name: "弗吉尼亚", value: 150},
+{name: "硅谷", value: 150},
+{name: "金奈", value: 250},
+{name: "悉尼", value: 250},
+{name: "阿姆斯特丹", value: 250},
+{name: "伦敦", value: 250},
+{name: "华盛顿", value: 250},
+{name: "达拉斯", value: 250},
+{name: "圣保罗", value: 250},
+{name: "圣何塞", value: 250},
+];
+var rawData1 = [
+{name: "上海", value: 150},
+{name: "重庆", value: 150},
+{name: "深圳", value: 150},
+{name: "成都", value: 150},
+{name: "广州", value: 150},
+{name: "香港", value: 150},
+];
+var rawData2 = [
+{name: "上海", value: 150},
+{name: "重庆", value: 150},
+{name: "深圳", value: 150},
+{name: "成都", value: 150},
+{name: "广州", value: 150},
+{name: "香港", value: 150},
+{name: "东京", value: 150},
+{name: "首尔", value: 150},
+{name: "新加坡", value: 150},
+{name: "曼谷", value: 150},
+{name: "孟买", value: 150},
+{name: "金奈", value: 250},
+];
+var rawData3 = [
+{name: "多伦多", value: 150},
+{name: "弗吉尼亚", value: 150},
+{name: "硅谷", value: 150},
+{name: "悉尼", value: 250},
+{name: "阿姆斯特丹", value: 250},
+{name: "华盛顿", value: 250},
+{name: "达拉斯", value: 250},
+{name: "圣保罗", value: 250},
+{name: "圣何塞", value: 250},
+];
+
+var rawData4 = [
+{name: "莫斯科", value: 150},
+{name: "法兰克福", value: 150},
+{name: "伦敦", value: 250},
+];
+
+function makeMapData(rawData) {
+    var mapData = [];
+    for (var i = 0; i < rawData.length; i++) {
+        var geoCoord = geoCoordMap[rawData[i].name];
+        if (geoCoord) {
+            mapData.push({
+                name: rawData[i].name,
+                value: geoCoord.concat(rawData[i].value)
+            });
+        }
+    }
+    return mapData;
+};
+var option = {
+    backgroundColor: '#fafafa',
+    tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+            return  '9个可用区'+'<br/>'+params.name + '（4）'+'<br/>'+params.name + '黑石（2）'+'<br/>'+params.name + '金融（3）'+'<br/><br/>其中 华为（3） 阿里（3） 腾讯（8）';
+        }
+    },
+  visualMap: {
+        type: 'piecewise',
+        textStyle: {
+            color: '#000'
+        },
+        pieces: [
+            {min: 100, max: 200,label: '已开放区域', color: '#39a4f7'},
+            {min: 200, max: 300,label: '海外合作基础设施', color: '#f29252'},
+            {min: 300, max: 400,label: '将开放区域', color: '#666666'}
+        ],
+        color: ['#e3bf4c', '#be4f51']
+    },
+    geo: {
+        map: 'world',
+        silent: true,
+        emphasis: {
+            label: {
+                show: false,
+                areaColor: '#eee'
+            }
+        },
+        itemStyle: {
+            borderWidth: 0.2,
+            borderColor: '#404a59'
+        },
+        roam: true
+    },
+    series: [
+        {
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            symbolSize: 8,
+            data: makeMapData(rawData),
+            activeOpacity: 1,
+            label: {
+                formatter: '{b}',
+                position: 'right',
+                show: true,
+            },
+            symbolSize: 10,
+            // symbolSize: function (data) {
+            //     return Math.max(5, data[2] / 5);
+            // },
+            itemStyle: {
+                borderColor: '#fff',
+                color: '#000',
+                areaColor: '#323c48',
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                },
+            }
+        }, 
+    ]
+};
+var option1 = {
+    backgroundColor: '#fafafa',
+    tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+            return  '9个可用区'+'<br/>'+params.name + '（4）'+'<br/>'+params.name + '黑石（2）'+'<br/>'+params.name + '金融（3）'+'<br/><br/>其中 华为（3） 阿里（3） 腾讯（8）';
+        }
+    },
+  visualMap: {
+        type: 'piecewise',
+        textStyle: {
+            color: '#000'
+        },
+        pieces: [
+            {min: 100, max: 200,label: '已开放区域', color: '#39a4f7'},
+            {min: 200, max: 300,label: '海外合作基础设施', color: '#f29252'},
+            {min: 300, max: 400,label: '将开放区域', color: '#666666'}
+        ],
+        color: ['#e3bf4c', '#be4f51']
+    },
+    geo: {
+        map: 'china',
+        silent: true,
+        emphasis: {
+            label: {
+                show: false,
+                areaColor: '#eee'
+            }
+        },
+        itemStyle: {
+            borderWidth: 0.2,
+            borderColor: '#404a59'
+        },
+        roam: true
+    },
+    series: [
+        {
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            symbolSize: 8,
+            data: makeMapData(rawData1),
+            activeOpacity: 1,
+            label: {
+                formatter: '{b}',
+                position: 'right',
+                show: true,
+            },
+            symbolSize: 10,
+            // symbolSize: function (data) {
+            //     return Math.max(5, data[2] / 5);
+            // },
+            itemStyle: {
+                borderColor: '#fff',
+                color: '#000',
+                areaColor: '#323c48',
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                },
+            }
+        },
+    ]
+};
+var option2 = {
+    backgroundColor: '#fafafa',
+    tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+            return  '9个可用区'+'<br/>'+params.name + '（4）'+'<br/>'+params.name + '黑石（2）'+'<br/>'+params.name + '金融（3）'+'<br/><br/>其中 华为（3） 阿里（3） 腾讯（8）';
+        }
+    },
+  visualMap: {
+        type: 'piecewise',
+        textStyle: {
+            color: '#000'
+        },
+        pieces: [
+            {min: 100, max: 200,label: '已开放区域', color: '#39a4f7'},
+            {min: 200, max: 300,label: '海外合作基础设施', color: '#f29252'},
+            {min: 300, max: 400,label: '将开放区域', color: '#666666'}
+        ],
+        color: ['#e3bf4c', '#be4f51']
+    },
+    geo: {
+        map: 'world',
+        silent: true,
+        emphasis: {
+            label: {
+                show: false,
+                areaColor: '#eee'
+            }
+        },
+        itemStyle: {
+            borderWidth: 0.2,
+            borderColor: '#404a59'
+        },
+        roam: true
+    },
+    series: [
+        {
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            symbolSize: 8,
+            data: makeMapData(rawData2),
+            activeOpacity: 1,
+            label: {
+                formatter: '{b}',
+                position: 'right',
+                show: true,
+            },
+            symbolSize: 10,
+            // symbolSize: function (data) {
+            //     return Math.max(5, data[2] / 5);
+            // },
+            itemStyle: {
+                borderColor: '#fff',
+                color: '#000',
+                areaColor: '#323c48',
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                },
+            }
+        }, 
+    ]
+};
+var option3 = {
+    backgroundColor: '#fafafa',
+    tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+            return  '9个可用区'+'<br/>'+params.name + '（4）'+'<br/>'+params.name + '黑石（2）'+'<br/>'+params.name + '金融（3）'+'<br/><br/>其中 华为（3） 阿里（3） 腾讯（8）';
+        }
+    },
+  visualMap: {
+        type: 'piecewise',
+        textStyle: {
+            color: '#000'
+        },
+        pieces: [
+            {min: 100, max: 200,label: '已开放区域', color: '#39a4f7'},
+            {min: 200, max: 300,label: '海外合作基础设施', color: '#f29252'},
+            {min: 300, max: 400,label: '将开放区域', color: '#666666'}
+        ],
+        color: ['#e3bf4c', '#be4f51']
+    },
+    geo: {
+        map: 'world',
+        silent: true,
+        emphasis: {
+            label: {
+                show: false,
+                areaColor: '#eee'
+            }
+        },
+        itemStyle: {
+            borderWidth: 0.2,
+            borderColor: '#404a59'
+        },
+        roam: true
+    },
+    series: [
+        {
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            symbolSize: 8,
+            data: makeMapData(rawData3),
+            activeOpacity: 1,
+            label: {
+                formatter: '{b}',
+                position: 'right',
+                show: true,
+            },
+            symbolSize: 10,
+            // symbolSize: function (data) {
+            //     return Math.max(5, data[2] / 5);
+            // },
+            itemStyle: {
+                borderColor: '#fff',
+                color: '#000',
+                areaColor: '#323c48',
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                },
+            }
+        }, 
+    ]
+};
+var option4 = {
+    backgroundColor: '#fafafa',
+    tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+            return  '9个可用区'+'<br/>'+params.name + '（4）'+'<br/>'+params.name + '黑石（2）'+'<br/>'+params.name + '金融（3）'+'<br/><br/>其中 华为（3） 阿里（3） 腾讯（8）';
+        }
+    },
+  visualMap: {
+        type: 'piecewise',
+        textStyle: {
+            color: '#000'
+        },
+        pieces: [
+            {min: 100, max: 200,label: '已开放区域', color: '#39a4f7'},
+            {min: 200, max: 300,label: '海外合作基础设施', color: '#f29252'},
+            {min: 300, max: 400,label: '将开放区域', color: '#666666'}
+        ],
+        color: ['#e3bf4c', '#be4f51']
+    },
+    geo: {
+        map: 'world',
+        silent: true,
+        emphasis: {
+            label: {
+                show: false,
+                areaColor: '#eee'
+            }
+        },
+        itemStyle: {
+            borderWidth: 0.2,
+            borderColor: '#404a59'
+        },
+        roam: true
+    },
+    series: [
+        {
+            type: 'effectScatter',
+            coordinateSystem: 'geo',
+            symbolSize: 8,
+            data: makeMapData(rawData4),
+            activeOpacity: 1,
+            label: {
+                formatter: '{b}',
+                position: 'right',
+                show: true,
+            },
+            symbolSize: 10,
+            // symbolSize: function (data) {
+            //     return Math.max(5, data[2] / 5);
+            // },
+            itemStyle: {
+                borderColor: '#fff',
+                color: '#000',
+                areaColor: '#323c48',
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                },
+            }
+        }, 
+    ]
+};
+myChart.setOption(option);
+
+myChart2.setOption(option2);
+myChart3.setOption(option3);
+myChart4.setOption(option4);
+var index='0';
+$(document).ready(function(){
+  $(".change-ul li").click(function(){
+    $(this).addClass('change-active').siblings().removeClass('change-active');
+    index=$(this).val();
+    if(index=='0'){
+     $('#main').show().siblings().hide()
+    }else if(index=='1'){
+     $('#main1').show().siblings().hide();
+     myChart1.setOption(option1);
+    }else if(index=='2'){
+     $('#main2').show().siblings().hide()
+    }else if(index=='3'){
+     $('#main3').show().siblings().hide()
+    }else if(index=='4'){
+     $('#main4').show().siblings().hide()
+    }
+   
+  });
+  });
+ 
+
+</script>
+
+</body>
+</html>
